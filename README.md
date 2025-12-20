@@ -1,5 +1,7 @@
 OOPS:
--> Object-Oriented Programming System (OOPS) is a programming approach that organizes software design around objects, where objects represent real-world entities containing both data and behavior, enabling modular, reusable, and maintainable code.
+-> Object-Oriented Programming System (OOPS) is a programming approach that organizes software design around objects,
+ where objects represent real-world entities containing both data and behavior, enabling modular, reusable and maintainable code.
+
 -> There are four main pillars of OOPS: Encapsulation, Abstraction, Inheritance, and Polymorphism.
 
 1.Encapsulation:
