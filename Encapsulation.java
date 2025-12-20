@@ -4,8 +4,7 @@ class BankAcc
     public int getBalance()
     {
         return balance;
-    }
-}
+    }}
 public class Encapsulation
 {
     public static void main(String[] args)
@@ -13,8 +12,7 @@ public class Encapsulation
         System.out.println("GETTING THE BALANCE AMOUNT");
         BankAcc b = new BankAcc();
         System.out.println("AVAILABLE BALANCE IS : " + b.getBalance());
-    }
-}
+    }}
 /*
 EXPLANATION:
 1. 'balance' is kept private, so it cannot be accessed directly.
