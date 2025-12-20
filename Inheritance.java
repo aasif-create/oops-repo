@@ -17,14 +17,14 @@ class SportsCar extends Car
 }
 public class Inheritance
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         SportsCar obj=new SportsCar();
-        System.out.println("COLOR OF THE SPORTS CAR IS : "+ obj.color); 
-        System.out.println("TYRE OF THE SPORTS CAR IS : "+ obj.tyres); 
-        System.out.println("PRICE OF THE SPORTS CAR IS : "+ obj.price); 
+        System.out.println("COLOR OF THE SPORTS CAR IS : "+ obj.color);
+        System.out.println("TYRE OF THE SPORTS CAR IS : "+ obj.tyres);
+        System.out.println("PRICE OF THE SPORTS CAR IS : "+ obj.price);
         obj.startEngine();
-        obj.turboMode(); 
+        obj.turboMode();
     }
 }
 /*
