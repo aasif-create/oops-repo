@@ -1,6 +1,6 @@
 class BankAcc
 {
-    private int balance = 1000;
+    private final int balance = 1000;
     public int getBalance()
     {
         return balance;

@@ -4,6 +4,7 @@ interface ATM
 }
 class BankAcc implements ATM
 {
+    @Override
     public void withdraw(int amount)
     {
         System.out.println("Checking account balance...");
@@ -17,7 +18,7 @@ public class Abstraction
     public static void main(String[] args)
     {
         ATM obj = new BankAcc();
-         System.out.println("USER REQUESTS TO WITHDRAW Rs 1000");
+        System.out.println("USER REQUESTS TO WITHDRAW Rs 1000");
         obj.withdraw(1000);
     }
 }
