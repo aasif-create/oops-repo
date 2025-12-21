@@ -11,16 +11,14 @@ class Payment
         public void pay()
         {
             System.out.println("PAYMENT THROUGH CASH");
-        }
-    }
+        }}
 public class Polymorphism
 {
     public static void main(String[] args)
     {
         Payment obj =new CashPayment();
         obj.pay();
-    }
-}
+    }}
 /*
 EXPLANATION:
 1. Payment is the parent class with the pay() method.

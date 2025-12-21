@@ -27,6 +27,7 @@ EXPLANATION:
 1. ATM is an interface that defines the withdraw operation.
 2. It does not show how the withdrawal is done.
 3. BankAcc class provides the implementation of withdraw().
-4. main() uses the ATM interface and does not know the logic inside the BankAcc class.
+4. main() uses the ATM interface and does not know the logic inside
+the BankAcc class.
 5. This hiding of BankAcc logic is called Abstraction.
 */

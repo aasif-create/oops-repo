@@ -25,8 +25,7 @@ public class Inheritance
         System.out.println("PRICE OF THE SPORTS CAR IS : "+ obj.price);
         obj.startEngine();
         obj.turboMode();
-    }
-}
+    }}
 /*
 1. Car is the parent class.
 2. It has common properties like color,tyres and a method startEngine().
